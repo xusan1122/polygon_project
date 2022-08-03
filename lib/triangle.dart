@@ -19,4 +19,13 @@ class Triangle {
 
     return sqrt(y * (y - this.a) * (y - this.b) * (y - this.c));
   }
+
+  bool isvalid() {
+    if (this.a + this.b > this.c ||
+        this.b + this.c > this.a ||
+        this.a + this.c > this.b) {
+      return true;
+    }
+    return false;
+  }
 }

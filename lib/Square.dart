@@ -7,7 +7,6 @@ class Square {
 
   double area() {
     return this.a * this.a;
-  }
 
   double b = 0;
 

@@ -15,7 +15,7 @@ class Triangle {
   }
 
   double area() {
-    double y = a + b + c;
+    double y = (a + b + c) / 2;
 
     return sqrt(y * (y - this.a) * (y - this.b) * (y - this.c));
   }

@@ -7,8 +7,8 @@ class Circle {
     this.r = r;
   }
 
-  double diameter() {
-    return this.r * 2;
+  double circumference() {
+    return this.r * pi * 2;
   }
 
   double area() {

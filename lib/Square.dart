@@ -8,7 +8,6 @@ class Square {
   double area() {
     return this.a * this.a;
   }
-
   double perimeter() {
     return this.a + this.a + this.a + this.a;
   }

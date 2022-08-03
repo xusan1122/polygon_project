@@ -4,7 +4,7 @@ class Rectangle {
     this.a = a;
     this.b = b;
   }
-  double Area() {
+  double area() {
     return this.a * this.b;
   }
 

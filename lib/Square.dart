@@ -1,11 +1,11 @@
 class Square {
-  double j = 4;
+  double a = 4;
 
-  Square(double j) {
-    this.j = j;
+  Square(double a) {
+    this.a = a;
   }
 
-  double Area() {
-    return this.j * this.j;
+  double area() {
+    return this.a * this.a;
   }
 }

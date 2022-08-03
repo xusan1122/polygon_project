@@ -1,3 +1,4 @@
+import 'dart:math';
 class Circle {
   double r = 0;
 
@@ -5,7 +6,7 @@ class Circle {
     this.r = r;
   }
 
-  double diameter() {
-    return this.r * 2;
+  double circumference() {
+    return this.r * pi * 2;
   }
 }

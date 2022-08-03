@@ -1,5 +1,5 @@
 class Square {
-  double a = 4;
+  double a = 0;
 
   Square(double a) {
     this.a = a;
@@ -9,9 +9,9 @@ class Square {
     return this.a * this.a;
   }
 
-  double a = 0;
+  double b = 0;
 
   double perimeter() {
-    return this.a + this.a + this.a + this.a;
+    return this.b + this.b + this.b + this.b;
   }
 }

@@ -4,11 +4,7 @@ class Rectangle {
     this.a = a;
     this.b = b;
   }
-  double area() {
-    return this.a * this.b;
-  }
+  
 
-  double perimeter() {
-    return (this.a + this.b) * 2;
-  }
+  
 }

@@ -7,11 +7,7 @@ class Circle {
     this.r = r;
   }
 
-  double circumference() {
-    return this.r * pi * 2;
-  }
 
-  double area() {
-    return pi * this.r * this.r;
-  }
+
+ 
 }

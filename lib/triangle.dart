@@ -10,22 +10,9 @@ class Triangle {
     this.b = b;
     this.c = c;
   }
-  double perimeter() {
-    return this.a + this.b + this.c;
-  }
+  
 
-  double area() {
-    double y = (a + b + c) / 2;
+ 
 
-    return sqrt(y * (y - this.a) * (y - this.b) * (y - this.c));
-  }
-
-  bool isvalid() {
-    if (this.a + this.b > this.c ||
-        this.b + this.c > this.a ||
-        this.a + this.c > this.b) {
-      return true;
-    }
-    return false;
-  }
+  
 }

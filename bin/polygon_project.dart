@@ -1,3 +1,6 @@
+import '../lib/rectangle.dart';
+
 void main() {
-  print('Hello World');
+  Rectangle area = Rectangle(12, 14);
+  print(area.Rectanglearea());
 }
